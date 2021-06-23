@@ -6,9 +6,10 @@ module.exports = {
     "gatsby-plugin-theme-ui",
     "gatsby-plugin-image",
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: "gatsby-plugin-google-gtag",
       options: {
         trackingId: "G-9RB4B3QT4J",
+        head: true,
       },
     },
     "gatsby-plugin-react-helmet",
